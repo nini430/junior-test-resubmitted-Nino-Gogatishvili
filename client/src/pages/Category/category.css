@@ -1,0 +1,21 @@
+.category {
+  position: relative;
+}
+
+.category h1 {
+  text-transform: capitalize;
+  font-weight: 300;
+  font-size: 4.2rem;
+  margin: 8rem 0;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 2rem 8rem;
+}
+
+.modalWrapperCat {
+  width: 35rem;
+  min-height: 19rem;
+}

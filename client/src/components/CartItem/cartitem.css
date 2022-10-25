@@ -1,0 +1,105 @@
+.cartItem {
+  width: 100%;
+  padding: 2rem 0;
+  margin: 1rem 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.wrap {
+  width: 100%;
+  display: flex;
+}
+.leftSide {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.leftSide h2 {
+  font-weight: 600;
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+.leftSide p {
+  font-weight: 300;
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.leftSide .price {
+  font-weight: 700;
+  font-size: 2.4rem;
+}
+
+.rightSide {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  gap: 2rem;
+}
+
+.rightLeft {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.operationBtn {
+  width: 4.5rem;
+  height: 4.5rem;
+  border: 1px solid var(--mainBlack);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.4rem;
+}
+
+.rightRight {
+  align-self: center;
+}
+
+.imgContCart {
+  width: 20rem;
+  height: 30rem;
+  display: flex;
+  overflow: hidden;
+}
+
+.images {
+  width: 20rem;
+  height: 30rem;
+  position: relative;
+}
+
+.imgContCart img {
+  width: 20rem;
+  height: 30rem;
+  object-fit: contain;
+  transition: all 0.7s ease;
+}
+
+.leftArr,
+.rightArr {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.73);
+  width: 2.4rem;
+  height: 2.4rem;
+  color: white;
+  bottom: 1.5rem;
+  right: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 5;
+}
+.rightArr {
+  position: absolute;
+  right: 1rem;
+  z-index: 5;
+}
+
+.zIndex {
+  z-index: 0;
+}

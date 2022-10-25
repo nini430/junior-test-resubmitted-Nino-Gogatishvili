@@ -1,0 +1,20 @@
+.hamburgerMenu {
+  display: flex;
+  cursor: pointer;
+  height: 8rem;
+  align-items: center;
+  margin-left: 3rem;
+  pointer-events: none;
+}
+
+.line {
+  width: 5rem;
+  height: 0.3rem;
+  background: var(--mainGreen) !important;
+}
+
+.hamburgerMenu div {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}

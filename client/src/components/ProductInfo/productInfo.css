@@ -1,0 +1,47 @@
+.productInfo {
+  display: flex;
+  flex-direction: column;
+  flex: 4;
+  gap: 2rem;
+}
+
+.productInfo h1 {
+  font-weight: 600;
+  font-size: 3rem;
+}
+
+.productInfo span {
+  font-weight: 300;
+  font-size: 3rem;
+}
+
+.price h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "Roboto Condensed";
+}
+
+.price span {
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+.productInfo button {
+  margin-top: 1rem;
+  background: var(--mainGreen);
+  color: white;
+  width: 30rem;
+  height: 5rem;
+  border: none;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.productInfo button:disabled {
+  background: gray;
+}
+
+.productInfo p {
+  width: 30rem;
+}

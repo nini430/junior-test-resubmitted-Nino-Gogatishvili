@@ -1,0 +1,75 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --mainGreen: #5ece7b;
+  --mainBlack: #1d1f22;
+}
+
+html {
+  font-size: 10px;
+}
+
+#root {
+  height: 100%;
+  position: relative;
+}
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.8rem;
+  color: var(--mainBlack);
+  height: 100%;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.appWrap {
+  display: flex;
+  gap: 2rem;
+}
+
+.container {
+  width: 1440px;
+}
+
+.leftside {
+  width: 20rem;
+  position: sticky;
+  top: 0;
+  align-self: flex-start;
+}
+
+.hamContainer {
+  cursor: pointer;
+}
+
+.color-active {
+  padding: 0.1rem;
+  border: 1px solid var(--mainGreen);
+}
+
+.grayBack {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 8rem;
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  background: rgba(57, 55, 72, 0.22);
+}

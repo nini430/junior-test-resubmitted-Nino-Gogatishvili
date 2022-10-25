@@ -1,0 +1,85 @@
+.cartOverlay {
+  position: absolute;
+  right: -5rem;
+  margin-top: 2.25rem;
+  padding: 1.5rem 1rem;
+  width: 31rem;
+  max-height: 60rem;
+  overflow-y: scroll;
+
+  background: white;
+  z-index: 300;
+}
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(94, 206, 123, 0.8);
+}
+
+::webkit-scrollbar-track {
+  background: #eee;
+}
+
+::webkit-scrollbar-thumb:hover {
+  background: var(--mainGreen);
+}
+
+.overlayWrap {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.overlayWrap span {
+  margin: 2rem 0;
+}
+
+.total {
+  margin: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.total span {
+  font-weight: 600;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttons button {
+  width: 14rem;
+  height: 4.3rem;
+  text-transform: uppercase;
+  background: var(--mainGreen);
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.buttons button:first-child {
+  background: white;
+  color: var(--mainBlack);
+  border: 1px solid var(--mainBlack);
+}
+
+.empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.empty h2 {
+  font-size: 1.6rem;
+  color: var(--mainGreen);
+}
+
+.empty img {
+  width: 20rem;
+  height: 20rem;
+  object-fit: cover;
+}

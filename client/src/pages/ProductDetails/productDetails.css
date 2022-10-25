@@ -1,0 +1,35 @@
+.productDetails {
+  margin-top: 8rem;
+  display: flex;
+  align-items: flex-start;
+}
+
+.detailsGallery {
+  flex: 1;
+}
+
+.detailsGallery .imgCont {
+  width: 10rem;
+  height: 10rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
+
+.imgCont img {
+  width: 70%;
+  height: 70%;
+  object-fit: cover;
+}
+
+.mainImageCont {
+  width: 61rem;
+  height: 52rem;
+  flex: 6;
+}
+
+.mainImageCont img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}

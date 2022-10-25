@@ -1,0 +1,23 @@
+.currencyOverlay {
+  position: absolute;
+  box-shadow: 0px 4px 35px rgba(168, 172, 176, 0.19);
+  font-weight: 500;
+  left: -1.5rem;
+  top: 3.5rem;
+  z-index: 2;
+  background: white;
+}
+
+.unitCurrency {
+  width: 11.4rem;
+  height: 4.5rem;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  align-items: center;
+  grid-column-gap: 1rem;
+}
+
+.unitCurrency:hover {
+  background: #eeeeee;
+}

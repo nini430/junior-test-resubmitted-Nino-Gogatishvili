@@ -1,0 +1,116 @@
+.modal {
+  position: fixed;
+  top: 50vh;
+  left: 50vw;
+  transform: translate(-50%, -50%);
+  z-index: 400;
+  background: white;
+  width: 40rem;
+  padding: 1.5rem 1rem;
+  border-radius: 0.4rem;
+}
+
+.modalWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.modalWrapper span {
+  font-size: 1.8rem;
+}
+
+.modalWrapper span:first-child {
+  font-size: 2rem;
+}
+
+.modalWrapper .priceModal {
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+}
+
+.modalInner {
+  display: flex;
+}
+
+.modalLeft {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 3.5rem;
+}
+
+.modalRight {
+  flex: 1;
+  align-self: center;
+}
+
+.modalImgCont {
+  display: flex;
+  overflow: hidden;
+  width: 19rem;
+  height: 19rem;
+}
+
+.modalImg {
+  display: flex;
+  align-items: center;
+  width: 19rem;
+  height: 19rem;
+}
+
+.modalImg img {
+  width: 15rem;
+  height: 15rem;
+  object-fit: contain;
+}
+
+.modalArr {
+  margin: 0 0.1rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  border: 1px solid var(--mainGreen);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  z-index: 50;
+}
+
+.modalArr:hover {
+  background: var(--mainGreen);
+  color: white;
+}
+
+.modalBtn {
+  background: var(--mainGreen);
+  color: white;
+  padding: 1rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: none;
+}
+
+.closeBtn {
+  position: absolute;
+  right: 1rem;
+  color: var(--mainGreen);
+  cursor: pointer;
+  border: 1px solid var(--mainGreen);
+  padding: 0.3rem;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s ease;
+}
+
+.closeBtn:hover {
+  background: var(--mainGreen);
+  color: white;
+}

@@ -1,0 +1,59 @@
+.attributes {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.attr-select {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+}
+
+.items {
+  margin-top: 0.5rem;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.attrBox {
+  border: 1px solid var(--mainBlack);
+  min-width: 6.3rem;
+  height: 4.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  padding: 0.1rem;
+}
+
+.attr-active {
+  background: black;
+  color: white;
+}
+
+.colorBox {
+  width: 3.2rem;
+  height: 3.2rem;
+}
+
+.small {
+  min-width: 2.4rem;
+  height: 2.4rem;
+}
+
+.colSmall {
+  width: 2rem !important;
+  height: 2rem !important;
+}
+
+.smallFont {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.bigFont {
+  text-transform: uppercase;
+  font-family: "Roboto Condensed";
+  font-size: 1.8rem !important;
+}

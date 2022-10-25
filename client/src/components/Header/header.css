@@ -1,0 +1,82 @@
+.header {
+  position: fixed;
+  height: 8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+.links {
+  display: inline-block;
+}
+
+.headerLink {
+  text-transform: uppercase;
+  margin-right: 1.5rem;
+  padding: 0 1.6rem;
+}
+
+.headerLink:last-child {
+  margin-right: 0;
+}
+
+.headerLink.active {
+  color: var(--mainGreen);
+  border-bottom: 1px solid var(--mainGreen);
+  padding-bottom: 3.05rem;
+}
+
+.right {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.currencyContainer {
+  position: relative;
+  cursor: pointer;
+}
+
+.currency {
+  width: 3.8rem;
+  height: 2.9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.currency span {
+  font-size: 1.8rem;
+}
+
+.currencyContainer img {
+  position: absolute;
+  right: -0.5rem;
+  bottom: 1rem;
+}
+
+.cart {
+  cursor: pointer;
+  position: relative;
+}
+
+.cart img {
+  pointer-events: none;
+}
+
+.headerQuantity {
+  position: absolute;
+  width: 1.8rem;
+  height: 1.8rem;
+  background: var(--mainBlack);
+  border-radius: 50%;
+  top: -0.8rem;
+  right: -1rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+}
